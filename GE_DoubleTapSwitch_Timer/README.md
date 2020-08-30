@@ -1,10 +1,10 @@
 # HomeAssistant GE Switch Timer with Double Tap Disable
 This is a custom Node Red Flow for setting a timer which will turn off lights after a specified period of time.  Double Tapping will disabled the timer and turn the light on until it is turned off.
 
-![NodeRed GE Timer Flow](images/GE_Timer_Flow.png)
+![NodeRed GE Timer Flow](/GE_DoubleTapSwitch_Timer/images/GE_Timer_Flow.png)
 
 # How does it work?
- this flow will track each double tap action and turn on the light setting a global array variable to track the double tap.  When a light in the specified group state changes to on if the global variable is not set a timer will be started and turn the light off when complete.
+ this flow will track each double tap action and turn on the light, setting a global array variable to track the double tap.  When a light in the specified group state changes to on if the global variable is not set a timer will be started and turn the light off when complete.
 
 # How To Install
 ## Dependencies
