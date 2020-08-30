@@ -1,4 +1,4 @@
-# HomeAssistant Node-Red Alexa Timer Notification
+# HomeAssistant GE Switch Timer with Double Tap Disable
 This is a custom Node Red Flow for setting a timer which will turn off lights after a specified period of time.  Double Tapping will disabled the timer and turn the light on until it is turned off.
 
 ![NodeRed GE Timer Flow](/images/GE_Timer_Flow.png)
