@@ -36,7 +36,7 @@ This is a custom Node Red Flow for setting a timer which will turn off lights af
 ## Updating the OZW XML
   As of writing there is an issue being tracked at [github ozw CC32 issue](https://github.com/OpenZWave/qt-openzwave/issues/60).  In order to get the report working you need to modify the device xml on your openZwave container.
 ```
-   <!-- COMMAND_CLASS_BASIC -->
+   <!-- COMMAND_CLASS_BASIC --> 
   <CommandClass id="32">
     <Compatibility>
       <IgnoreMapping>true</IgnoreMapping>
